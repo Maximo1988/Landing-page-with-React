@@ -1,20 +1,19 @@
 import React from "react";
+import CardsContainer from "./cardsContainer";
 
 const Jumbotron = () => {
 	return (
-		<div className="jumbotron bg-light grey">
-			<h1 className="display-4">Hello, world!</h1>
+		<div className="jumbotron bg-light grey px-5">
+			<h1 className="display-4">A Warm Welcome!</h1>
 			<p className="lead">
-				This is a simple hero unit, a simple jumbotron-style component
-				for calling extra attention to featured content or information.
-			</p>
-			<hr className="my-4"></hr>
-			<p>
-				It uses utility classes for typography and spacing to space
-				content out within the larger container.
+				All the Lorem Ipsum generators on the Internet tend to repeat
+				predefined chunks as necessary, making this the first true
+				generator on the Internet. It uses a dictionary of over 200
+				Latin words, combined with a handful of model sentence
+				structures, to generate Lorem Ipsum which looks reasonable.
 			</p>
 			<a className="btn btn-primary btn-lg" href="#" role="button">
-				Learn more
+				Call to Action!
 			</a>
 		</div>
 	);
